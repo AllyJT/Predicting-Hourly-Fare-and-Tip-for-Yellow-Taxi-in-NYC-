@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# System / User files
+.DS_Store
+.bash_history
+.cache/
+.local/
+.ipython/
+.sudo_as_admin_successful
+.landscape/
+.lesshst
+.motd_shown
+.profile
+.gitconfig
+
+# Project-specific 
+data/*.csv
+data/*.parquet
+plots/*.png
+artifacts/
+
+# EXCEPT keep weather_data
+!weather_data/
